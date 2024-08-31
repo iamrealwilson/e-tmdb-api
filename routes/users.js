@@ -12653,7 +12653,69 @@ router.get('/discover/movie', function(req, res, next) {
     });
  }
  
- 
+ if (req.query.with_genres == 90017 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/2qJ9iNy2ds4.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001788801,
+        "original_language": "en",
+        "original_title": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
+        "overview": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
+        "popularity": 2590.24,
+        "poster_path": "/images/2qJ9iNy2ds4.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/-rBVIgGREyY.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001788802,
+        "original_language": "en",
+        "original_title": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
+        "overview": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
+        "popularity": 2590.24,
+        "poster_path": "/images/-rBVIgGREyY.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/QMpWvxQ4OmE.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001788803,
+        "original_language": "en",
+        "original_title": "Last Minute Tips - Commercial - Usec. Balmes - Part 3",
+        "overview": "Last Minute Tips - Commercial - Usec. Balmes - Part 3",
+        "popularity": 2590.24,
+        "poster_path": "/images/QMpWvxQ4OmE.jpg",
+        "release_date": "2024-07-19",
+        "title": "Last Minute Tips - Commercial - Usec. Balmes - Part 3",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+     ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }	
  
  if (req.query.with_genres == 90020 ){
       res.json({
@@ -17566,7 +17628,71 @@ router.get('/discover/tv', function(req, res, next) {
     "total_results": 5
     });
  }	
-	 
+
+  if (req.query.with_genres == 90017 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/2qJ9iNy2ds4.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001788801,
+        "original_language": "en",
+        "original_title": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
+        "overview": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
+        "popularity": 2590.24,
+        "poster_path": "/images/2qJ9iNy2ds4.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/-rBVIgGREyY.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001788802,
+        "original_language": "en",
+        "original_title": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
+        "overview": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
+        "popularity": 2590.24,
+        "poster_path": "/images/-rBVIgGREyY.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/QMpWvxQ4OmE.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001788803,
+        "original_language": "en",
+        "original_title": "Last Minute Tips - Commercial - Usec. Balmes - Part 3",
+        "overview": "Last Minute Tips - Commercial - Usec. Balmes - Part 3",
+        "popularity": 2590.24,
+        "poster_path": "/images/QMpWvxQ4OmE.jpg",
+        "release_date": "2024-07-19",
+        "title": "Last Minute Tips - Commercial - Usec. Balmes - Part 3",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+     ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }	
+ 
   if (req.query.with_genres == 90020 ){
       res.json({
     "page": 1,
@@ -23235,6 +23361,10 @@ router.get('/genre/movie/list', function(req, res, next) {
 				"name": 'Preweek - Commercial - Atty. Erickson Balmes - Part II'
 			},
 			{
+				"id": 90017,
+				"name": 'Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part I'
+			},
+			{
 				"id": 90020,
 				"name": 'Preweek - Political - Atty. Victoria Loanzon - Part I'
 			},
@@ -23528,6 +23658,10 @@ router.get('/genre/tv/list', function(req, res, next) {
 			{
 				"id": 90016,
 				"name": 'Preweek - Commercial - Atty. Erickson Balmes - Part II'
+			},
+			{
+				"id": 90017,
+				"name": 'Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part I'
 			},
 			{
 				"id": 90020,
@@ -36611,6 +36745,211 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
   
+  if (req.params.series_id == 9001788801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9001688801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/xyd_Yct9o20.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
+      "overview": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
+      "popularity": 23.139,
+      "poster_path": "/images/2qJ9iNy2ds4.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9001788802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9001788802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/-rBVIgGREyY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
+      "overview": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
+      "popularity": 23.139,
+      "poster_path": "/images/-rBVIgGREyY.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9001788803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9001788803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 3",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/QMpWvxQ4OmE.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 3",
+      "overview": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 3",
+      "popularity": 23.139,
+      "poster_path": "/images/QMpWvxQ4OmE.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  
   if (req.params.series_id == 9002088801){
     res.json(
       {
@@ -46894,6 +47233,66 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 	
+	if (req.params.series_id == 9001788801){
+      res.json({
+      "id": 9001788801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
+          "key": "2qJ9iNy2ds4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9001788802){
+      res.json({
+      "id": 9001788802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
+          "key": "-rBVIgGREyY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9001788803){
+      res.json({
+      "id": 9001788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 3",
+          "key": "QMpWvxQ4OmE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
 	if (req.params.series_id == 9002088801){
       res.json({
       "id": 9002088801,
@@ -52061,6 +52460,10 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
+	
+	
+	
+	
 	if (req.params.tv_id == 9001688802){
       res.json({
       "id": 9001688802,
@@ -52120,6 +52523,67 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }
+
+    if (req.params.tv_id == 9001788801){
+      res.json({
+      "id": 9001788801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
+          "key": "2qJ9iNy2ds4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9001788802){
+      res.json({
+      "id": 9001788802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
+          "key": "-rBVIgGREyY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9001788803){
+      res.json({
+      "id": 9001788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 3",
+          "key": "QMpWvxQ4OmE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
 
    if (req.params.tv_id == 3030088803){
       res.json({
