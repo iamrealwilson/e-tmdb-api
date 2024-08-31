@@ -11931,6 +11931,63 @@ router.get('/discover/movie', function(req, res, next) {
 		  "video": false,
 		  "vote_average": 8.2,
 		  "vote_count": 4588
+		},
+		{
+		   "adult": false,
+		  "backdrop_path": "/images/1f4qjplGUPM.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007288803,
+		  "original_language": "en",
+		  "original_title": "7. Falsification, theft, estafa, malversation",
+		  "overview": "Falsification, theft, estafa, malversation",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/1f4qjplGUPM.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Falsification, theft, estafa, malversation",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		   "adult": false,
+		  "backdrop_path": "/images/jKXUxh5Ch2k.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007288804,
+		  "original_language": "en",
+		  "original_title": "8. Theft and estafa",
+		  "overview": "Theft and estafa",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/jKXUxh5Ch2k.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Theft and estafa",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/C1lu_9rT8PY.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007288805,
+		  "original_language": "en",
+		  "original_title": "9. Bigamy",
+		  "overview": "Bigamy",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/C1lu_9rT8PY.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Bigamy",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
 		}
 	  ],
 	  "total_pages": 1,
@@ -11938,8 +11995,196 @@ router.get('/discover/movie', function(req, res, next) {
 	  });
 	}
   
-
-
+  if (req.query.with_genres == 90073 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		 {
+		  "adult": false,
+		  "backdrop_path": "/images/3v2oLE5oJE4.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007388801,
+		  "original_language": "en",
+		  "original_title": "10 RA No  9262",
+		  "overview": "RA No  9262",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/3v2oLE5oJE4.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "RA No  9262",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/o5ULbu0cefU.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007388802,
+		  "original_language": "en",
+		  "original_title": "11 Sexual abuse, rape, sexual assault,",
+		  "overview": "Sexual abuse, rape, sexual assault,",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/o5ULbu0cefU.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Sexual abuse, rape, sexual assault,",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		   "adult": false,
+		  "backdrop_path": "/images/XhyCAuhiurI.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007388803,
+		  "original_language": "en",
+		  "original_title": "12 Statutory rape - RA No  11648",
+		  "overview": "Statutory rape - RA No  11648",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/XhyCAuhiurI.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Statutory rape - RA No  11648",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		   "adult": false,
+		  "backdrop_path": "/images/QWHn_60T9oo.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007388804,
+		  "original_language": "en",
+		  "original_title": "13. Penalty for special laws",
+		  "overview": "Penalty for special laws",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/QWHn_60T9oo.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Penalty for special laws",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/t10zaUPXYcM.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007388805,
+		  "original_language": "en",
+		  "original_title": "14. Territoriality, generality, conspiracy, fencing,",
+		  "overview": "14. Territoriality, generality, conspiracy, fencing,",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/t10zaUPXYcM.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Territoriality, generality, conspiracy, fencing",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+  
+  if (req.query.with_genres == 90074 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		 {
+		  "adult": false,
+		  "backdrop_path": "/images/5_G8M__-MQ0.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007488801,
+		  "original_language": "en",
+		  "original_title": "15. Error in personaem praeter intentionem, aberatiu ictus, impossible crime",
+		  "overview": "15. Error in personaem praeter intentionem, aberatiu ictus, impossible crime",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/5_G8M__-MQ0.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "15. Error in personaem praeter intentionem, aberatiu ictus, impossible crime",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/x_HdoIhDirA.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007488802,
+		  "original_language": "en",
+		  "original_title": "16. RA No 3019",
+		  "overview": "16. RA No 3019",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/x_HdoIhDirA.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "16. RA No 3019",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		   "adult": false,
+		  "backdrop_path": "/images/__4vRfX4Lzw.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007488803,
+		  "original_language": "en",
+		  "original_title": "17 Terrorism",
+		  "overview": "17 Terrorism",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/__4vRfX4Lzw.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "17 Terrorism",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		   "adult": false,
+		  "backdrop_path": "/images/WwjFa6l1xlU.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007488804,
+		  "original_language": "en",
+		  "original_title": "18. Exceptional circumstance, tumultuous affray, abortion, infanticide",
+		  "overview": "18. Exceptional circumstance, tumultuous affray, abortion, infanticide",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/WwjFa6l1xlU.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "18. Exceptional circumstance, tumultuous affray, abortion, infanticide",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
 
   if (req.query.with_genres == 90008 ){
 		res.json({
@@ -20811,6 +21056,254 @@ router.get('/discover/tv', function(req, res, next) {
 		  "video": false,
 		  "vote_average": 8.2,
 		  "vote_count": 4588
+		},
+		{
+		   "adult": false,
+		  "backdrop_path": "/images/1f4qjplGUPM.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007288803,
+		  "original_language": "en",
+		  "original_title": "7. Falsification, theft, estafa, malversation",
+		  "overview": "Falsification, theft, estafa, malversation",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/1f4qjplGUPM.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Falsification, theft, estafa, malversation",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		   "adult": false,
+		  "backdrop_path": "/images/jKXUxh5Ch2k.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007288804,
+		  "original_language": "en",
+		  "original_title": "8. Theft and estafa",
+		  "overview": "Theft and estafa",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/jKXUxh5Ch2k.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Theft and estafa",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/C1lu_9rT8PY.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007288805,
+		  "original_language": "en",
+		  "original_title": "9. Bigamy",
+		  "overview": "Bigamy",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/C1lu_9rT8PY.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Bigamy",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+  
+  if (req.query.with_genres == 90073 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		 {
+		  "adult": false,
+		  "backdrop_path": "/images/3v2oLE5oJE4.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007388801,
+		  "original_language": "en",
+		  "original_title": "10 RA No  9262",
+		  "overview": "RA No  9262",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/3v2oLE5oJE4.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "RA No  9262",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/o5ULbu0cefU.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007388802,
+		  "original_language": "en",
+		  "original_title": "11 Sexual abuse, rape, sexual assault,",
+		  "overview": "Sexual abuse, rape, sexual assault,",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/o5ULbu0cefU.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Sexual abuse, rape, sexual assault,",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		   "adult": false,
+		  "backdrop_path": "/images/XhyCAuhiurI.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007388803,
+		  "original_language": "en",
+		  "original_title": "12 Statutory rape - RA No  11648",
+		  "overview": "Statutory rape - RA No  11648",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/XhyCAuhiurI.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Statutory rape - RA No  11648",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		   "adult": false,
+		  "backdrop_path": "/images/QWHn_60T9oo.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007388804,
+		  "original_language": "en",
+		  "original_title": "13. Penalty for special laws",
+		  "overview": "Penalty for special laws",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/QWHn_60T9oo.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Penalty for special laws",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/t10zaUPXYcM.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007388805,
+		  "original_language": "en",
+		  "original_title": "14. Territoriality, generality, conspiracy, fencing,",
+		  "overview": "14. Territoriality, generality, conspiracy, fencing,",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/t10zaUPXYcM.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "Territoriality, generality, conspiracy, fencing",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+  
+  if (req.query.with_genres == 90074 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		 {
+		  "adult": false,
+		  "backdrop_path": "/images/5_G8M__-MQ0.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007488801,
+		  "original_language": "en",
+		  "original_title": "15. Error in personaem praeter intentionem, aberatiu ictus, impossible crime",
+		  "overview": "15. Error in personaem praeter intentionem, aberatiu ictus, impossible crime",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/5_G8M__-MQ0.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "15. Error in personaem praeter intentionem, aberatiu ictus, impossible crime",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/x_HdoIhDirA.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007488802,
+		  "original_language": "en",
+		  "original_title": "16. RA No 3019",
+		  "overview": "16. RA No 3019",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/x_HdoIhDirA.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "16. RA No 3019",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		   "adult": false,
+		  "backdrop_path": "/images/__4vRfX4Lzw.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007488803,
+		  "original_language": "en",
+		  "original_title": "17 Terrorism",
+		  "overview": "17 Terrorism",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/__4vRfX4Lzw.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "17 Terrorism",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		   "adult": false,
+		  "backdrop_path": "/images/WwjFa6l1xlU.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007488804,
+		  "original_language": "en",
+		  "original_title": "18. Exceptional circumstance, tumultuous affray, abortion, infanticide",
+		  "overview": "18. Exceptional circumstance, tumultuous affray, abortion, infanticide",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/WwjFa6l1xlU.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "18. Exceptional circumstance, tumultuous affray, abortion, infanticide",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
 		}
 	  ],
 	  "total_pages": 1,
@@ -23325,6 +23818,14 @@ router.get('/genre/movie/list', function(req, res, next) {
 				"name": 'Preweek - Criminal - Judge Campanilla - Part III'
 			},
 			{
+				"id": 90073,
+				"name": 'Preweek - Criminal - Judge Campanilla - Part IV'
+			},
+			{
+				"id": 90074,
+				"name": 'Preweek - Criminal - Judge Campanilla - Part V'
+			},
+			{
 				"id": 90008,
 				"name": 'Preweek - Labor - Dean Pearlito Campanilla - Part I'
 			},
@@ -23622,6 +24123,18 @@ router.get('/genre/tv/list', function(req, res, next) {
 			{
 				"id": 90072,
 				"name": 'Preweek - Criminal - Judge Campanilla - Part III'
+			},
+			{
+				"id": 90073,
+				"name": 'Preweek - Criminal - Judge Campanilla - Part IV'
+			},
+			{
+				"id": 90074,
+				"name": 'Preweek - Criminal - Judge Campanilla - Part V'
+			},
+			{
+				"id": 90008,
+				"name": 'Preweek - Labor - Dean Pearlito Campanilla - Part I'
 			},
 			{
 				"id": 90008,
@@ -34674,6 +35187,822 @@ router.get('/tv/:series_id', function(req, res, next) {
       "overview": "Mode of criminal extinction",
       "popularity": 23.139,
       "poster_path": "/images/0UVeOs-GDwY.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9007288803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9007288803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "7. Falsification, theft, estafa, malversation",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/zpnLOVlxti8.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "7. Falsification, theft, estafa, malversation",
+      "overview": "7. Falsification, theft, estafa, malversation",
+      "popularity": 23.139,
+      "poster_path": "/images/1f4qjplGUPM.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9007288804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9007288804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "8. Theft and estafa",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/0UVeOs-GDwY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "8. Theft and estafa",
+      "overview": "8. Theft and estafa",
+      "popularity": 23.139,
+      "poster_path": "/images/jKXUxh5Ch2k.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9007288805){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9007288805,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "9 Bigamy",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/0UVeOs-GDwY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "9 Bigamy",
+      "overview": "9 Bigamy",
+      "popularity": 23.139,
+      "poster_path": "/images/C1lu_9rT8PY.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+
+  if (req.params.series_id == 9007388801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9007388801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "10. RA No  9262",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/0UVeOs-GDwY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "10. RA No  9262",
+      "overview": "10. RA No  9262",
+      "popularity": 23.139,
+      "poster_path": "/images/3v2oLE5oJE4.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+
+  if (req.params.series_id == 9007388802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9007388802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "11. Sexual abuse, rape, sexual assault, acts of lasciviousness",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/0UVeOs-GDwY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "11. Sexual abuse, rape, sexual assault, acts of lasciviousness",
+      "overview": "11. Sexual abuse, rape, sexual assault, acts of lasciviousness",
+      "popularity": 23.139,
+      "poster_path": "/images/o5ULbu0cefU.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9007388803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9007388803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "12. Statutory rape - RA No 11648",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/0UVeOs-GDwY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "12. Statutory rape - RA No 11648",
+      "overview": "12. Statutory rape - RA No 11648",
+      "popularity": 23.139,
+      "poster_path": "/images/XhyCAuhiurI.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9007388804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9007388804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "13. Penalty for special laws",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/0UVeOs-GDwY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "13. Penalty for special laws",
+      "overview": "13. Penalty for special laws",
+      "popularity": 23.139,
+      "poster_path": "/images/QWHn_60T9oo.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+
+  if (req.params.series_id == 9007388805){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9007388805,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "14. Territoriality, generality, conspiracy, fencing, obstruction of justice",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/0UVeOs-GDwY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "14. Territoriality, generality, conspiracy, fencing, obstruction of justice",
+      "overview": "14. Territoriality, generality, conspiracy, fencing, obstruction of justice",
+      "popularity": 23.139,
+      "poster_path": "/images/t10zaUPXYcM.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9007488801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9007488801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "15. Error in personaem praeter intentionem, aberatiu ictus, impossible crime",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/0UVeOs-GDwY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "15. Error in personaem praeter intentionem, aberatiu ictus, impossible crime",
+      "overview": "15. Error in personaem praeter intentionem, aberatiu ictus, impossible crime",
+      "popularity": 23.139,
+      "poster_path": "/images/5_G8M__-MQ0.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9007488802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9007488802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "16. RA No 3019",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/0UVeOs-GDwY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "16. RA No 3019",
+      "overview": "16. RA No 3019",
+      "popularity": 23.139,
+      "poster_path": "/images/x_HdoIhDirA.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9007488803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9007488803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "17 Terrorism",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/0UVeOs-GDwY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "17 Terrorism",
+      "overview": "17 Terrorism",
+      "popularity": 23.139,
+      "poster_path": "/images/__4vRfX4Lzw.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9007488804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9007488804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "18. Exceptional circumstance, tumultuous affray, abortion, infanticide",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/0UVeOs-GDwY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "18. Exceptional circumstance, tumultuous affray, abortion, infanticide",
+      "overview": "18. Exceptional circumstance, tumultuous affray, abortion, infanticide",
+      "popularity": 23.139,
+      "poster_path": "/images/WwjFa6l1xlU.jpg",
       "production_companies": [
       ],
       "production_countries": [
@@ -46913,6 +48242,247 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 	
+	if (req.params.series_id == 9007288803){
+      res.json({
+      "id": 9007288803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "7. Falsification, theft, estafa, malversation",
+          "key": "1f4qjplGUPM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9007288804){
+      res.json({
+      "id": 9007288804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "8. Theft and estafa",
+          "key": "jKXUxh5Ch2k",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9007288805){
+      res.json({
+      "id": 9007288805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "9. Bigamy",
+          "key": "C1lu_9rT8PY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9007388801){
+      res.json({
+      "id": 9007388801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "10. RA No  9262",
+          "key": "3v2oLE5oJE4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9007388802){
+      res.json({
+      "id": 9007388802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "11. Sexual abuse, rape, sexual assault, acts of lasciviousness",
+          "key": "o5ULbu0cefU",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9007388803){
+      res.json({
+      "id": 9007388803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "12. Statutory rape - RA No 11648",
+          "key": "XhyCAuhiurI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9007388804){
+      res.json({
+      "id": 9007388804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "13. Penalty for special laws",
+          "key": "QWHn_60T9oo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9007388805){
+      res.json({
+      "id": 9007388805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "14. Territoriality, generality, conspiracy, fencing, obstruction of justice",
+          "key": "t10zaUPXYcM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9007488801){
+      res.json({
+      "id": 9007488801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "15. Error in personaem praeter intentionem, aberatiu ictus, impossible crime",
+          "key": "5_G8M__-MQ0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9007488802){
+      res.json({
+      "id": 9007488802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "16. RA No 3019",
+          "key": "x_HdoIhDirA",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9007488803){
+      res.json({
+      "id": 9007488803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "17 Terrorism",
+          "key": "__4vRfX4Lzw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9007488804){
+      res.json({
+      "id": 9007488804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "18. Exceptional circumstance, tumultuous affray, abortion, infanticide",
+          "key": "WwjFa6l1xlU",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	
    if (req.params.series_id == 9001288801){
       res.json({
       "id": 9001288801,
@@ -51872,7 +53442,248 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }
-   
+	
+	if (req.params.tv_id == 9007288803){
+      res.json({
+      "id": 9007288803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "7. Falsification, theft, estafa, malversation",
+          "key": "1f4qjplGUPM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9007288804){
+      res.json({
+      "id": 9007288804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "8. Theft and estafa",
+          "key": "jKXUxh5Ch2k",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9007288805){
+      res.json({
+      "id": 9007288805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "9. Bigamy",
+          "key": "C1lu_9rT8PY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9007388801){
+      res.json({
+      "id": 9007388801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "10. RA No  9262",
+          "key": "3v2oLE5oJE4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9007388802){
+      res.json({
+      "id": 9007388802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "11. Sexual abuse, rape, sexual assault, acts of lasciviousness",
+          "key": "o5ULbu0cefU",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9007388803){
+      res.json({
+      "id": 9007388803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "12. Statutory rape - RA No 11648",
+          "key": "XhyCAuhiurI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9007388804){
+      res.json({
+      "id": 9007388804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "13. Penalty for special laws",
+          "key": "QWHn_60T9oo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9007388805){
+      res.json({
+      "id": 9007388805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "14. Territoriality, generality, conspiracy, fencing, obstruction of justice",
+          "key": "t10zaUPXYcM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9007488801){
+      res.json({
+      "id": 9007488801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "15. Error in personaem praeter intentionem, aberatiu ictus, impossible crime",
+          "key": "5_G8M__-MQ0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9007488802){
+      res.json({
+      "id": 9007488802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "16. RA No 3019",
+          "key": "x_HdoIhDirA",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9007488803){
+      res.json({
+      "id": 9007488803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "17 Terrorism",
+          "key": "__4vRfX4Lzw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9007488804){
+      res.json({
+      "id": 9007488804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "18. Exceptional circumstance, tumultuous affray, abortion, infanticide",
+          "key": "WwjFa6l1xlU",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	
     if (req.params.tv_id == 9000888801){
       res.json({
       "id": 9000788803,
