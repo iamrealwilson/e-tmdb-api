@@ -13211,6 +13211,70 @@ router.get('/discover/movie', function(req, res, next) {
  }
  
  
+ if (req.query.with_genres == 89891 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/mwMETQY2Ecg.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 8989188801,
+        "original_language": "en",
+        "original_title": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+        "overview": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+        "popularity": 2590.24,
+        "poster_path": "/images/mwMETQY2Ecg.jpg",
+        "release_date": "2024-07-19",
+        "title": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/E01sRxUWE0w.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 8989188802,
+        "original_language": "en",
+        "original_title": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+        "overview": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+        "popularity": 2590.24,
+        "poster_path": "/images/E01sRxUWE0w.jpg",
+        "release_date": "2024-07-19",
+        "title": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/8Rn6X7p7S-E.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 8989188803,
+        "original_language": "en",
+        "original_title": "Last Minute Tip - Probation, Amnesty, Parole, Service of Sentence",
+        "overview": "Last Minute Tip - Probation, Amnesty, Parole, Service of Sentence",
+        "popularity": 2590.24,
+        "poster_path": "/images/8Rn6X7p7S-E.jpg",
+        "release_date": "2024-07-19",
+        "title": "Last Minute Tip - Probation, Amnesty, Parole, Service of Sentence",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+     ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+ 
 
   if (req.query.with_genres == 30301 ){
       res.json({
@@ -18231,6 +18295,70 @@ router.get('/discover/tv', function(req, res, next) {
     });
  }
  
+ if (req.query.with_genres == 89891 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/mwMETQY2Ecg.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 8989188801,
+        "original_language": "en",
+        "original_title": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+        "overview": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+        "popularity": 2590.24,
+        "poster_path": "/images/mwMETQY2Ecg.jpg",
+        "release_date": "2024-07-19",
+        "title": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/E01sRxUWE0w.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 8989188802,
+        "original_language": "en",
+        "original_title": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+        "overview": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+        "popularity": 2590.24,
+        "poster_path": "/images/E01sRxUWE0w.jpg",
+        "release_date": "2024-07-19",
+        "title": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/8Rn6X7p7S-E.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 8989188803,
+        "original_language": "en",
+        "original_title": "Last Minute Tip - Probation, Amnesty, Parole, Service of Sentence",
+        "overview": "Last Minute Tip - Probation, Amnesty, Parole, Service of Sentence",
+        "popularity": 2590.24,
+        "poster_path": "/images/8Rn6X7p7S-E.jpg",
+        "release_date": "2024-07-19",
+        "title": "Last Minute Tip - Probation, Amnesty, Parole, Service of Sentence",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+     ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+ 
   if (req.query.with_genres == 30301 ){
       res.json({
     "page": 1,
@@ -21951,6 +22079,70 @@ router.get('/discover/tv', function(req, res, next) {
     "total_results": 3
     });
  }
+ 
+ if (req.query.with_genres == 89891 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/mwMETQY2Ecg.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 8989188801,
+        "original_language": "en",
+        "original_title": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+        "overview": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+        "popularity": 2590.24,
+        "poster_path": "/images/mwMETQY2Ecg.jpg",
+        "release_date": "2024-07-19",
+        "title": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/E01sRxUWE0w.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 8989188802,
+        "original_language": "en",
+        "original_title": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+        "overview": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+        "popularity": 2590.24,
+        "poster_path": "/images/E01sRxUWE0w.jpg",
+        "release_date": "2024-07-19",
+        "title": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/8Rn6X7p7S-E.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 8989188803,
+        "original_language": "en",
+        "original_title": "Last Minute Tip - Probation, Amnesty, Parole, Service of Sentence",
+        "overview": "Last Minute Tip - Probation, Amnesty, Parole, Service of Sentence",
+        "popularity": 2590.24,
+        "poster_path": "/images/8Rn6X7p7S-E.jpg",
+        "release_date": "2024-07-19",
+        "title": "Last Minute Tip - Probation, Amnesty, Parole, Service of Sentence",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+     ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
 
   if (req.query.with_genres == 30301 ){
       res.json({
@@ -23969,6 +24161,10 @@ router.get('/genre/movie/list', function(req, res, next) {
 			{
 				"id": 90022,
 				"name": 'Preweek - Political - Atty. Victoria Loanzon - Part III'
+			},
+			{
+				"id": 89891,
+				"name": 'Last Minute Tip - Speed Lecture Criminal Law'
 			}
 	  ]
 });
@@ -24284,6 +24480,10 @@ router.get('/genre/tv/list', function(req, res, next) {
 			{
 				"id": 90022,
 				"name": 'Preweek - Political - Atty. Victoria Loanzon - Part III'
+			},
+			{
+				"id": 89891,
+				"name": 'Last Minute Tip - Speed Lecture Criminal Law'
 			}
   ]
 });
@@ -39196,6 +39396,210 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
   
+  if (req.params.series_id == 8989188801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8989188801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/3xIRE7FMsLQ.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+      "overview": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+      "popularity": 23.139,
+      "poster_path": "/images/mwMETQY2Ecg.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 8989188802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8989188802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/E01sRxUWE0w.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+      "overview": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+      "popularity": 23.139,
+      "poster_path": "/images/E01sRxUWE0w.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 8989188803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8989188803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Last Minute Tip - Probation, Amnesty, Parole, Service of Sentence",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/E01sRxUWE0w.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Last Minute Tip - Probation, Amnesty, Parole, Service of Sentence",
+      "overview": "Last Minute Tip - Probation, Amnesty, Parole, Service of Sentence",
+      "popularity": 23.139,
+      "poster_path": "/images/8Rn6X7p7S-E.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
   if (req.params.series_id == 3030088801){
 	res.json(
 		{
@@ -48820,6 +49224,66 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 	
+	if (req.params.series_id == 8989188801){
+      res.json({
+      "id": 8989188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+          "key": "mwMETQY2Ecg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 8989188802){
+      res.json({
+      "id": 8989188802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+          "key": "E01sRxUWE0w",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 8989188803){
+      res.json({
+      "id": 8989188803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Last Minute Tip - Probation, Amnesty, Parole, Probation",
+          "key": "8Rn6X7p7S-E",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
 	if (req.params.series_id == 9001388801){
       res.json({
       "id": 9001388801,
@@ -51133,6 +51597,65 @@ router.get('/movie/:movie_id/lists', function(req, res, next) {
 
 router.get('/tv/:tv_id/season/1', function(req, res, next) {
   
+   if (req.params.tv_id == 8989188801){
+      res.json({
+      "id": 8989188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Last Minute Tip - Criminal - Judge Campanilla - ISLAW",
+          "key": "mwMETQY2Ecg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8989188802){
+      res.json({
+      "id": 8989188802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Last Minute Tip - Criminal - Judge Campanilla - Penalty Offense",
+          "key": "E01sRxUWE0w",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8989188803){
+      res.json({
+      "id": 8989188803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Last Minute Tip - Probation, Amnesty, Parole, Probation",
+          "key": "8Rn6X7p7S-E",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
   
    if (req.params.tv_id == 9002088801){
       res.json({
