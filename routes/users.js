@@ -13268,6 +13268,24 @@ router.get('/discover/movie', function(req, res, next) {
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/8Rn6X7p7S-E.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 8989188803,
+        "original_language": "en",
+        "original_title": "Last Minute Tip - Prescription",
+        "overview": "Last Minute Tip - Prescription",
+        "popularity": 2590.24,
+        "poster_path": "/images/8Rn6X7p7S-E.jpg",
+        "release_date": "2024-07-19",
+        "title": "Last Minute Tip - Prescription",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
       }
      ],
     "total_pages": 1,
