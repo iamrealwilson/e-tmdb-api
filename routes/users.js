@@ -106,14 +106,14 @@ router.get('/authentication/guest_session/new', function(req, res, next) {
   res.json({
     "success": true,
     "guest_session_id": "0f88ad697dea11655e0016a2cacf01f1",
-    "expires_at": "2024-11-20 22:26:54 UTC"
+    "expires_at": "2025-11-20 22:26:54 UTC"
   });
 });
 
 router.get('/authentication/token/new', function(req, res, next) {
   res.json({
     "success": true,
-    "expires_at": "2024-11-19 23:28:29 UTC",
+    "expires_at": "2025-11-19 23:28:29 UTC",
     "request_token": "86b587231e4b4acbe75f7a76dfbfdd7de79b5d19"
   });
 });
@@ -619,12 +619,12 @@ router.get('/certification/movie/list', function(req, res, next) {
         },
         {
           "certification": "U",
-          "meaning": "(Umum: \"General Audiences\") - For general audiences. (Used by the majority of films screened in Malaysia until 2024 but it continues only for television, notably for RTM.)",
+          "meaning": "(Umum: \"General Audiences\") - For general audiences. (Used by the majority of films screened in Malaysia until 2025 but it continues only for television, notably for RTM.)",
           "order": 1
         },
         {
           "certification": "P13",
-          "meaning": "(Penjaga 13 : \"Parental Guidance 13\") - Children under 13 not admitted unless accompanied by an adult. (Introduced in 2024, this became the official Malaysian motion picture rating system in 2024. The \"PG-13\" rating was revised to \"P13\" from April 2024 onwards to emphasize the use of Malay language instead of English.) Passionate kissing scenes are not allowed under a P13 rating.",
+          "meaning": "(Penjaga 13 : \"Parental Guidance 13\") - Children under 13 not admitted unless accompanied by an adult. (Introduced in 2025, this became the official Malaysian motion picture rating system in 2025. The \"PG-13\" rating was revised to \"P13\" from April 2025 onwards to emphasize the use of Malay language instead of English.) Passionate kissing scenes are not allowed under a P13 rating.",
           "order": 2
         },
         {
@@ -903,7 +903,7 @@ router.get('/certification/movie/list', function(req, res, next) {
         },
         {
           "certification": "15",
-          "meaning": "Children over the age of 7, who are accompanied by an adult, are admitted to films that have been passed for children from the age of 11. Updated on March 1, 2024.",
+          "meaning": "Children over the age of 7, who are accompanied by an adult, are admitted to films that have been passed for children from the age of 11. Updated on March 1, 2025.",
           "order": 4
         },
         {
@@ -1966,7 +1966,7 @@ router.get('/certification/tv/list', function(req, res, next) {
         },
         {
           "certification": "15",
-          "meaning": "This rating is for programs that contain material that may be inappropriate for children under 15, and that parental discretion should be used. Examples include most dramas, and talk shows on OTA (over-the-air) TV (KBS, MBC, SBS), and many American TV shows/dramas on Cable TV channels like OCN and OnStyle. The programs that have this rating may include moderate or strong adult themes, language, sexual inference, and violence. As with the TV-MA rating in North America, this rating is commonly applied to live events where the occurrence of inappropriate dialogue is unpredictable. Since 2024, this rating is the most used rating for TV.",
+          "meaning": "This rating is for programs that contain material that may be inappropriate for children under 15, and that parental discretion should be used. Examples include most dramas, and talk shows on OTA (over-the-air) TV (KBS, MBC, SBS), and many American TV shows/dramas on Cable TV channels like OCN and OnStyle. The programs that have this rating may include moderate or strong adult themes, language, sexual inference, and violence. As with the TV-MA rating in North America, this rating is commonly applied to live events where the occurrence of inappropriate dialogue is unpredictable. Since 2025, this rating is the most used rating for TV.",
           "order": 5
         },
         {
@@ -3272,7 +3272,7 @@ router.get('/person/changes', function(req, res, next) {
         "adult": false
       },
       {
-        "id": 2024753,
+        "id": 2025753,
         "adult": false
       },
       {
@@ -9151,7 +9151,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The video will examine the new Law of Corporation.",
       "popularity": 2590.24,
       "poster_path": "/images/pclRwzhkLr8.jpg",
-      "release_date": "2024-07-19",
+      "release_date": "2025-07-19",
       "title": "Commercial - New Corporation Law (6 hours)",
       "video": false,
       "vote_average": 8.2,
@@ -9170,7 +9170,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The video will examine the Law of Partnership.",
       "popularity": 2590.24,
       "poster_path": "/images/zxzIXXrN2HA.jpg",
-      "release_date": "2024-07-19",
+      "release_date": "2025-07-19",
       "title": "Commercial - Partnership (2.5 hours)",
       "video": false,
       "vote_average": 8.2,
@@ -9199,7 +9199,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/6ZywHeXopT0.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - New Banking Laws - 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9218,7 +9218,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/_DeM5rTjbH4.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - New Banking Laws - 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9237,7 +9237,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/mZM3zjC4CaY.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - New Banking Laws - 3",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9256,7 +9256,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the data privacy act.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/HgWpFD-sUGQ.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Data Privacy",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9285,7 +9285,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/S3rm1bS_dmk.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Transportation Law - Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9304,7 +9304,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/v1uO5NkPWZo.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Transportation Law - Part 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9323,7 +9323,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Transportation Law - Part 3",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9342,7 +9342,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the insurance law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/vCpBjALriaQ.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Insurance Law - Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9370,7 +9370,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Preweek - Civil - Atty. Judy Lardizabal",
         "popularity": 2590.24,
         "poster_path": "/images/KIN4GDfym0g.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Civil - Atty. Judy Lardizabal",
         "video": false,
         "vote_average": 8.2,
@@ -9388,7 +9388,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Preweek - Civil - Atty. Judy Lardizabal - LMT",
         "popularity": 2590.24,
         "poster_path": "/images/zPJCkSeRF1E.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Civil - Atty. Judy Lardizabal - LMT",
         "video": false,
         "vote_average": 8.2,
@@ -9416,7 +9416,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
         "popularity": 2590.24,
         "poster_path": "/images/STwcWHgj_xE.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
         "video": false,
         "vote_average": 8.2,
@@ -9434,7 +9434,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 2",
         "popularity": 2590.24,
         "poster_path": "/images/W4NXdZdPi2k.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 2",
         "video": false,
         "vote_average": 8.2,
@@ -9452,7 +9452,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 3",
         "popularity": 2590.24,
         "poster_path": "/images/kfrRKydIrqg.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 3",
         "video": false,
         "vote_average": 8.2,
@@ -9470,7 +9470,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 4",
         "popularity": 2590.24,
         "poster_path": "/images/9bHsSh8OG6Q.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 4",
         "video": false,
         "vote_average": 8.2,
@@ -9498,7 +9498,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
         "popularity": 2590.24,
         "poster_path": "/images/xyd_Yct9o20.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
         "video": false,
         "vote_average": 8.2,
@@ -9516,7 +9516,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
         "popularity": 2590.24,
         "poster_path": "/images/jRYqKChdpEU.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
         "video": false,
         "vote_average": 8.2,
@@ -9534,7 +9534,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
         "popularity": 2590.24,
         "poster_path": "/images/DrHf9dXI9To.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
         "video": false,
         "vote_average": 8.2,
@@ -9552,7 +9552,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
         "popularity": 2590.24,
         "poster_path": "/images/iztIusa4cWQ.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
         "video": false,
         "vote_average": 8.2,
@@ -9580,7 +9580,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
         "popularity": 2590.24,
         "poster_path": "/images/2qJ9iNy2ds4.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
         "video": false,
         "vote_average": 8.2,
@@ -9598,7 +9598,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
         "popularity": 2590.24,
         "poster_path": "/images/-rBVIgGREyY.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
         "video": false,
         "vote_average": 8.2,
@@ -9616,7 +9616,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "Last Minute Tips - Commercial - Usec. Balmes - Part 3",
         "popularity": 2590.24,
         "poster_path": "/images/QMpWvxQ4OmE.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Last Minute Tips - Commercial - Usec. Balmes - Part 3",
         "video": false,
         "vote_average": 8.2,
@@ -9650,7 +9650,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the new Law of Corporation.",
       "popularity": 2590.24,
       "poster_path": "/images/pclRwzhkLr8.jpg",
-      "release_date": "2024-07-19",
+      "release_date": "2025-07-19",
       "title": "Commercial - New Corporation Law (6 hours)",
       "video": false,
       "vote_average": 8.2,
@@ -9669,7 +9669,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the Law of Partnership.",
       "popularity": 2590.24,
       "poster_path": "/images/zxzIXXrN2HA.jpg",
-      "release_date": "2024-07-19",
+      "release_date": "2025-07-19",
       "title": "Commercial - Partnership (2.5 hours)",
       "video": false,
       "vote_average": 8.2,
@@ -9698,7 +9698,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/6ZywHeXopT0.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - New Banking Laws - 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9717,7 +9717,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/_DeM5rTjbH4.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - New Banking Laws - 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9736,7 +9736,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/mZM3zjC4CaY.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - New Banking Laws - 3",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9755,7 +9755,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the data privacy act.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/HgWpFD-sUGQ.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Data Privacy",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9784,7 +9784,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/S3rm1bS_dmk.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Transportation Law - Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9803,7 +9803,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/v1uO5NkPWZo.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Transportation Law - Part 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9822,7 +9822,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Transportation Law - Part 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9841,7 +9841,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the Insurance law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/9000388804.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Atty. Erickson Balmes - Insurance Law Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9870,7 +9870,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/S3rm1bS_dmk.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Transportation Law - Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9889,7 +9889,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/v1uO5NkPWZo.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Transportation Law - Part 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -9917,7 +9917,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "Preweek - Civil - Atty. Judy Lardizabal",
         "popularity": 2590.24,
         "poster_path": "/images/KIN4GDfym0g.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Civil - Atty. Judy Lardizabal",
         "video": false,
         "vote_average": 8.2,
@@ -9935,7 +9935,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "Preweek - Civil - Atty. Judy Lardizabal - LMT",
         "popularity": 2590.24,
         "poster_path": "/images/zPJCkSeRF1E.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Civil - Atty. Judy Lardizabal - LMT",
         "video": false,
         "vote_average": 8.2,
@@ -9963,7 +9963,7 @@ router.get('/discover/tv', function(req, res, next) {
 			"overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
 			"popularity": 2590.24,
 			"poster_path": "/images/STwcWHgj_xE.jpg",
-			"release_date": "2024-07-19",
+			"release_date": "2025-07-19",
 			"title": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
 			"video": false,
 			"vote_average": 8.2,
@@ -9981,7 +9981,7 @@ router.get('/discover/tv', function(req, res, next) {
 			"overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 2",
 			"popularity": 2590.24,
 			"poster_path": "/images/W4NXdZdPi2k.jpg",
-			"release_date": "2024-07-19",
+			"release_date": "2025-07-19",
 			"title": "Preweek - Commercial - Atty. Erickson Balmes - Part 2",
 			"video": false,
 			"vote_average": 8.2,
@@ -9999,7 +9999,7 @@ router.get('/discover/tv', function(req, res, next) {
 			"overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 3",
 			"popularity": 2590.24,
 			"poster_path": "/images/kfrRKydIrqg.jpg",
-			"release_date": "2024-07-19",
+			"release_date": "2025-07-19",
 			"title": "Preweek - Commercial - Atty. Erickson Balmes - Part 3",
 			"video": false,
 			"vote_average": 8.2,
@@ -10017,7 +10017,7 @@ router.get('/discover/tv', function(req, res, next) {
 			"overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 4",
 			"popularity": 2590.24,
 			"poster_path": "/images/9bHsSh8OG6Q.jpg",
-			"release_date": "2024-07-19",
+			"release_date": "2025-07-19",
 			"title": "Preweek - Commercial - Atty. Erickson Balmes - Part 4",
 			"video": false,
 			"vote_average": 8.2,
@@ -10045,7 +10045,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
         "popularity": 2590.24,
         "poster_path": "/images/xyd_Yct9o20.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
         "video": false,
         "vote_average": 8.2,
@@ -10063,7 +10063,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
         "popularity": 2590.24,
         "poster_path": "/images/jRYqKChdpEU.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
         "video": false,
         "vote_average": 8.2,
@@ -10081,7 +10081,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
         "popularity": 2590.24,
         "poster_path": "/images/DrHf9dXI9To.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
         "video": false,
         "vote_average": 8.2,
@@ -10099,7 +10099,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
         "popularity": 2590.24,
         "poster_path": "/images/iztIusa4cWQ.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
         "video": false,
         "vote_average": 8.2,
@@ -10127,7 +10127,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
         "popularity": 2590.24,
         "poster_path": "/images/2qJ9iNy2ds4.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
         "video": false,
         "vote_average": 8.2,
@@ -10145,7 +10145,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
         "popularity": 2590.24,
         "poster_path": "/images/-rBVIgGREyY.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
         "video": false,
         "vote_average": 8.2,
@@ -10163,7 +10163,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "Last Minute Tips - Commercial - Usec. Balmes - Part 3",
         "popularity": 2590.24,
         "poster_path": "/images/QMpWvxQ4OmE.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Last Minute Tips - Commercial - Usec. Balmes - Part 3",
         "video": false,
         "vote_average": 8.2,
@@ -10193,7 +10193,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the new Law of Corporation.",
       "popularity": 2590.24,
       "poster_path": "/images/pclRwzhkLr8.jpg",
-      "release_date": "2024-07-19",
+      "release_date": "2025-07-19",
       "title": "Commercial - New Corporation Law (6 hours)",
       "video": false,
       "vote_average": 8.2,
@@ -10212,7 +10212,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the Law of Partnership.",
       "popularity": 2590.24,
       "poster_path": "/images/zxzIXXrN2HA.jpg",
-      "release_date": "2024-07-19",
+      "release_date": "2025-07-19",
       "title": "Commercial - Partnership (2.5 hours)",
       "video": false,
       "vote_average": 8.2,
@@ -10241,7 +10241,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/6ZywHeXopT0.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - New Banking Laws - 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -10260,7 +10260,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/_DeM5rTjbH4.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - New Banking Laws - 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -10279,7 +10279,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/mZM3zjC4CaY.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - New Banking Laws - 3",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -10298,7 +10298,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the data privacy act.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/HgWpFD-sUGQ.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Data Privacy",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -10327,7 +10327,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/S3rm1bS_dmk.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Transportation Law - Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -10346,7 +10346,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/v1uO5NkPWZo.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Transportation Law - Part 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -10365,7 +10365,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Transportation Law - Part 3",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -10384,7 +10384,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the Insurance law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
-		  "release_date": "2024-07-19",
+		  "release_date": "2025-07-19",
 		  "title": "Commercial - Insurance Law - Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -10413,7 +10413,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "Preweek - Civil - Atty. Judy Lardizabal",
         "popularity": 2590.24,
         "poster_path": "/images/KIN4GDfym0g.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Civil - Atty. Judy Lardizabal",
         "video": false,
         "vote_average": 8.2,
@@ -10431,7 +10431,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "Preweek - Civil - Atty. Judy Lardizabal - LMT",
         "popularity": 2590.24,
         "poster_path": "/images/zPJCkSeRF1E.jpg",
-        "release_date": "2024-07-19",
+        "release_date": "2025-07-19",
         "title": "Preweek - Civil - Atty. Judy Lardizabal - LMT",
         "video": false,
         "vote_average": 8.2,
@@ -10584,8 +10584,8 @@ router.get('/list/:list_id', function(req, res, next) {
 router.get('/movie/now_playing', function(req, res, next) {
   res.json({
 "dates": {
-  "maximum": "2024-11-22",
-  "minimum": "2024-10-11"
+  "maximum": "2025-11-22",
+  "minimum": "2025-10-11"
 },
 "page": 1,
 "results": [
@@ -10621,8 +10621,8 @@ router.get('/movie/top_rated', function(req, res, next) {
 router.get('/movie/upcoming', function(req, res, next) {
   res.json({
 "dates": {
-  "maximum": "2024-12-13",
-  "minimum": "2024-11-22"
+  "maximum": "2025-12-13",
+  "minimum": "2025-11-22"
 },
 "page": 1,
 "results": [
@@ -10693,7 +10693,7 @@ router.get('/movie/:movie_id', function(req, res, next) {
     "name": "United Kingdom"
   }
 ],
-"release_date": "2024-04-05",
+"release_date": "2025-04-05",
 "revenue": 34806812,
 "runtime": 107,
 "spoken_languages": [
@@ -10871,7 +10871,7 @@ router.get('/tv/:series_id', function(req, res, next) {
             "episode_run_time": [
               43
             ],
-            "first_air_date": "2024-04-13",
+            "first_air_date": "2025-04-13",
             "genres": [
             ],
             "homepage": "",
@@ -10880,7 +10880,7 @@ router.get('/tv/:series_id', function(req, res, next) {
             "languages": [
               "en"
             ],
-            "last_air_date": "2024-05-18",
+            "last_air_date": "2025-05-18",
             "last_episode_to_air": {
             },
             "name": "Commercial - New Corporation Law (6 hours)",
@@ -10939,7 +10939,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -10948,7 +10948,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Law on Partnership (2.5 hours)",
@@ -11007,7 +11007,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11016,7 +11016,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - New Banking Laws - 1",
@@ -11075,7 +11075,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11084,7 +11084,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - New Banking Laws - 2",
@@ -11143,7 +11143,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11152,7 +11152,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - New Banking Laws - 3",
@@ -11211,7 +11211,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11220,7 +11220,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Data Privacy Act",
@@ -11279,7 +11279,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11288,7 +11288,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Transportation Law - Part 1",
@@ -11347,7 +11347,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11356,7 +11356,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Transportation Law - Part 2",
@@ -11415,7 +11415,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11424,7 +11424,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Transportation Law - Part 3",
@@ -11483,7 +11483,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11492,7 +11492,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Atty. Balmes - Insurance Law - Part 1",
@@ -11551,7 +11551,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11560,7 +11560,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Atty. Balmes - Insurance Law - Part 2",
@@ -11619,7 +11619,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11628,7 +11628,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Atty. Balmes - Insurance Law - Part 3",
@@ -11687,7 +11687,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11696,7 +11696,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Atty. Balmes - Insurance Law - Part 4",
@@ -11755,7 +11755,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11764,7 +11764,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-05-18",
+      "last_air_date": "2025-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Atty. Balmes - Insurance Law - Part 5",
@@ -11824,7 +11824,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11833,7 +11833,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Civil - Atty. Judy Lardizabal",
@@ -11892,7 +11892,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11901,7 +11901,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Civil - Atty. Judy Lardizabal - LMT",
@@ -11960,7 +11960,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -11969,7 +11969,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
@@ -12028,7 +12028,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -12037,7 +12037,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 2",
@@ -12096,7 +12096,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -12105,7 +12105,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 3",
@@ -12164,7 +12164,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -12173,7 +12173,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 4",
@@ -12232,7 +12232,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -12241,7 +12241,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
@@ -12300,7 +12300,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -12309,7 +12309,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
@@ -12368,7 +12368,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -12377,7 +12377,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
@@ -12436,7 +12436,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -12445,7 +12445,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
@@ -12504,7 +12504,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -12513,7 +12513,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 1",
@@ -12572,7 +12572,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -12581,7 +12581,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 2",
@@ -12640,7 +12640,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2024-04-13",
+      "first_air_date": "2025-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -12649,7 +12649,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2024-08-22",
+      "last_air_date": "2025-08-22",
       "last_episode_to_air": {
       },
       "name": "Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part 3",
@@ -13553,7 +13553,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13573,7 +13573,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13593,7 +13593,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13613,7 +13613,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13633,7 +13633,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13653,7 +13653,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13673,7 +13673,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13693,7 +13693,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13713,7 +13713,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13733,7 +13733,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13753,7 +13753,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13773,7 +13773,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13793,7 +13793,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13813,7 +13813,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13833,7 +13833,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13853,7 +13853,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13873,7 +13873,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13894,7 +13894,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13914,7 +13914,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13934,7 +13934,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13954,7 +13954,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13974,7 +13974,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -13994,7 +13994,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -14014,7 +14014,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -14034,7 +14034,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -14054,7 +14054,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -14074,7 +14074,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -14094,7 +14094,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -14114,7 +14114,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -14134,7 +14134,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2024-08-04T13:24:39.000Z",
+          "published_at": "2025-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -14315,7 +14315,7 @@ router.get('/movie/:movie_id/lists', function(req, res, next) {
     "iso_639_1": "en",
     "iso_3166_1": "US",
     "list_type": "movie",
-    "name": "2024-2024;US;All",
+    "name": "2025-2025;US;All",
     "poster_path": null
   },
   {
@@ -14354,7 +14354,7 @@ router.get('/movie/:movie_id/lists', function(req, res, next) {
   {
     "description": "",
     "favorite_count": 0,
-    "id": 32024,
+    "id": 32025,
     "item_count": 2611,
     "iso_639_1": "en",
     "iso_3166_1": "US",
@@ -14405,7 +14405,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14425,7 +14425,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14445,7 +14445,7 @@ if (req.params.tv_id == 9000288801){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14465,7 +14465,7 @@ if (req.params.tv_id == 9000288802){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14485,7 +14485,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14505,7 +14505,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14525,7 +14525,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14545,7 +14545,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14565,7 +14565,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14585,7 +14585,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14605,7 +14605,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14625,7 +14625,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14645,7 +14645,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14665,7 +14665,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14685,7 +14685,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14705,7 +14705,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14725,7 +14725,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14746,7 +14746,7 @@ if (req.params.tv_id == 9000288803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14766,7 +14766,7 @@ if (req.params.tv_id == 9001488802){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14786,7 +14786,7 @@ if (req.params.tv_id == 9001588801){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14806,7 +14806,7 @@ if (req.params.tv_id == 9001588802){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14826,7 +14826,7 @@ if (req.params.tv_id == 9001588803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14846,7 +14846,7 @@ if (req.params.tv_id == 9001588804){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14866,7 +14866,7 @@ if (req.params.tv_id == 9001688801){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14886,7 +14886,7 @@ if (req.params.tv_id == 9001688802){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14906,7 +14906,7 @@ if (req.params.tv_id == 9001688803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14926,7 +14926,7 @@ if (req.params.tv_id == 9001688804){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14946,7 +14946,7 @@ if (req.params.tv_id == 9001788801){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14966,7 +14966,7 @@ if (req.params.tv_id == 9001788802){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -14986,7 +14986,7 @@ if (req.params.tv_id == 9001788803){
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2024-08-04T13:24:39.000Z",
+        "published_at": "2025-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
