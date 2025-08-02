@@ -9629,22 +9629,22 @@ router.get('/discover/movie', function(req, res, next) {
  }	
  
  
- if (req.query.with_genres == 99015 ){
+  if (req.query.with_genres == 99015 ){
       res.json({
     "page": 1,
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/images/2qJ9iNy2ds4.jpg",
+        "backdrop_path": "/images/r_UKglZkN60.jpg",
         "genre_ids": [
         
         ],
-        "id": 9001588801,
+        "id": 9900188801,
         "original_language": "en",
         "original_title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 1",
         "overview": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 1",
         "popularity": 2590.24,
-        "poster_path": "/images/2qJ9iNy2ds4.jpg",
+        "poster_path": "/images/r_UKglZkN60.jpg",
         "release_date": "2025-07-19",
         "title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 1",
         "video": false,
@@ -9653,16 +9653,16 @@ router.get('/discover/movie', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/-rBVIgGREyY.jpg",
+        "backdrop_path": "/images/Bu79ndgG9D8.jpg",
         "genre_ids": [
         
         ],
-        "id": 9001588802,
+        "id": 9900188802,
         "original_language": "en",
         "original_title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 2",
         "overview": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 2",
         "popularity": 2590.24,
-        "poster_path": "/images/-rBVIgGREyY.jpg",
+        "poster_path": "/images/Bu79ndgG9D8.jpg",
         "release_date": "2025-07-19",
         "title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 2",
         "video": false,
@@ -9671,16 +9671,16 @@ router.get('/discover/movie', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/QMpWvxQ4OmE.jpg",
+        "backdrop_path": "/images/sFSXXC-vFY0.jpg",
         "genre_ids": [
         
         ],
-        "id": 9001588803,
+        "id": 9900188803,
         "original_language": "en",
         "original_title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 3",
         "overview": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 3",
         "popularity": 2590.24,
-        "poster_path": "/images/QMpWvxQ4OmE.jpg",
+        "poster_path": "/images/sFSXXC-vFY0.jpg",
         "release_date": "2025-07-19",
         "title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 1",
         "video": false,
@@ -10467,16 +10467,16 @@ router.get('/discover/tv', function(req, res, next) {
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/images/2qJ9iNy2ds4.jpg",
+        "backdrop_path": "/images/r_UKglZkN60.jpg",
         "genre_ids": [
         
         ],
-        "id": 9001588801,
+        "id": 9900188801,
         "original_language": "en",
         "original_title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 1",
         "overview": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 1",
         "popularity": 2590.24,
-        "poster_path": "/images/2qJ9iNy2ds4.jpg",
+        "poster_path": "/images/r_UKglZkN60.jpg",
         "release_date": "2025-07-19",
         "title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 1",
         "video": false,
@@ -10485,16 +10485,16 @@ router.get('/discover/tv', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/-rBVIgGREyY.jpg",
+        "backdrop_path": "/images/Bu79ndgG9D8.jpg",
         "genre_ids": [
         
         ],
-        "id": 9001588802,
+        "id": 9900188802,
         "original_language": "en",
         "original_title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 2",
         "overview": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 2",
         "popularity": 2590.24,
-        "poster_path": "/images/-rBVIgGREyY.jpg",
+        "poster_path": "/images/Bu79ndgG9D8.jpg",
         "release_date": "2025-07-19",
         "title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 2",
         "video": false,
@@ -10503,16 +10503,16 @@ router.get('/discover/tv', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/QMpWvxQ4OmE.jpg",
+        "backdrop_path": "/images/sFSXXC-vFY0.jpg",
         "genre_ids": [
         
         ],
-        "id": 9001588803,
+        "id": 9900188803,
         "original_language": "en",
         "original_title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 3",
         "overview": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 3",
         "popularity": 2590.24,
-        "poster_path": "/images/QMpWvxQ4OmE.jpg",
+        "poster_path": "/images/sFSXXC-vFY0.jpg",
         "release_date": "2025-07-19",
         "title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 1",
         "video": false,
