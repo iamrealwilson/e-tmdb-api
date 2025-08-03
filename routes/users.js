@@ -9682,14 +9682,14 @@ router.get('/discover/movie', function(req, res, next) {
         "popularity": 2590.24,
         "poster_path": "/images/sFSXXC-vFY0.jpg",
         "release_date": "2025-07-19",
-        "title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 1",
+        "title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 3",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/FeE_oE6lYPw.png",
+        "backdrop_path": "/images/FeE_oE6lYPw.jpg",
         "genre_ids": [
         
         ],
@@ -9698,7 +9698,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 4",
         "overview": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 4",
         "popularity": 2590.24,
-        "poster_path": "/images/FeE_oE6lYPw.png",
+        "poster_path": "/images/FeE_oE6lYPw.jpg",
         "release_date": "2025-07-19",
         "title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 4",
         "video": false,
@@ -9707,7 +9707,7 @@ router.get('/discover/movie', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/C_jFu3rC6Ms.png",
+        "backdrop_path": "/images/C_jFu3rC6Ms.jpg",
         "genre_ids": [
         
         ],
@@ -9716,7 +9716,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 5",
         "overview": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 5",
         "popularity": 2590.24,
-        "poster_path": "/images/C_jFu3rC6Ms.png",
+        "poster_path": "/images/C_jFu3rC6Ms.jpg",
         "release_date": "2025-07-19",
         "title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 5",
         "video": false,
@@ -10557,7 +10557,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/FeE_oE6lYPw.png",
+        "backdrop_path": "/images/FeE_oE6lYPw.jpg",
         "genre_ids": [
         
         ],
@@ -10566,7 +10566,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 4",
         "overview": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 4",
         "popularity": 2590.24,
-        "poster_path": "/images/FeE_oE6lYPw.png",
+        "poster_path": "/images/FeE_oE6lYPw.jpg",
         "release_date": "2025-07-19",
         "title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 4",
         "video": false,
@@ -10575,7 +10575,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/C_jFu3rC6Ms.png",
+        "backdrop_path": "/images/C_jFu3rC6Ms.jpg",
         "genre_ids": [
         
         ],
@@ -10584,7 +10584,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 5",
         "overview": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 5",
         "popularity": 2590.24,
-        "poster_path": "/images/C_jFu3rC6Ms.png",
+        "poster_path": "/images/C_jFu3rC6Ms.jpg",
         "release_date": "2025-07-19",
         "title": "2025 Preweek - Commercial -  Atty. Erickson Balmes - Part 5",
         "video": false,
@@ -13143,7 +13143,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "original_name": "2025 Preweek Part IV - Mercantile Law - Atty. Erickson Balmes",
       "overview": "2025 Preweek Part IV - Mercantile Law - Atty. Erickson Balmes",
       "popularity": 23.139,
-      "poster_path": "/images/FeE_oE6lYPw.png",
+      "poster_path": "/images/FeE_oE6lYPw.jpg",
       "production_companies": [
       ],
       "production_countries": [
@@ -13197,7 +13197,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "networks": [
         {
         "id": 6,
-        "logo_path": "/C_jFu3rC6Ms.png",
+        "logo_path": "/C_jFu3rC6Ms.jpg",
         "name": "NBC",
         "origin_country": "US"
         }
@@ -13211,7 +13211,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "original_name": "2025 Preweek Part V - Mercantile Law - Atty. Erickson Balmes",
       "overview": "2025 Preweek Part V - Mercantile Law - Atty. Erickson Balmes",
       "popularity": 23.139,
-      "poster_path": "/images/C_jFu3rC6Ms.png",
+      "poster_path": "/images/C_jFu3rC6Ms.jpg",
       "production_companies": [
       ],
       "production_countries": [
