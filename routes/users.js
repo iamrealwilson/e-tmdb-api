@@ -9689,7 +9689,7 @@ router.get('/discover/movie', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/sFSXXC-vFY0.jpg",
+        "backdrop_path": "/images/FeE_oE6lYPw.png",
         "genre_ids": [
         
         ],
@@ -9707,7 +9707,7 @@ router.get('/discover/movie', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/sFSXXC-vFY0.jpg",
+        "backdrop_path": "/images/C_jFu3rC6Ms.png",
         "genre_ids": [
         
         ],
@@ -10557,7 +10557,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/sFSXXC-vFY0.jpg",
+        "backdrop_path": "/images/FeE_oE6lYPw.png",
         "genre_ids": [
         
         ],
@@ -10575,7 +10575,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/sFSXXC-vFY0.jpg",
+        "backdrop_path": "/images/C_jFu3rC6Ms.png",
         "genre_ids": [
         
         ],
